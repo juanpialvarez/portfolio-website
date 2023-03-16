@@ -1,83 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z56LJ15VRG"></script>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Z56LJ15VRG"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-Z56LJ15VRG');
+      gtag("config", "G-Z56LJ15VRG");
     </script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juan Pablo Alvarez Vega Web Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.prodution.css">
-</head>
-<body class="grid__container">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.prodution.css" />
+  </head>
+  <body class="grid__container">
     <header class="grid__item flexbox__container">
-        <div class="flexbox__item">
-            <img class="logo" src="img/logo-no-background.svg" alt="logo">
-        </div>
-        <div class="flexbox__item">
-            <nav>
-                <ul role="menubar">
-                    <li class="navigation__item" role="presentation">
-                        <a class="navigation-list__item navigation-list__item--active" role="menuitem" href="#home">Home</a>
-                    </li>
-                    <li class="navigation__item" role="presentation">
-                        <a class="navigation-list__item" role="menuitem" href="about.html">About</a>
-                    </li>
-                    <li class="navigation__item" role="presentation">
-                        <a class="navigation-list__item" role="menuitem" href="contact.html">Contact</a>
-                    </li>
-                    <li class="navigation__item" role="presentation">
-                        <a class="navigation-list__item" role="menuitem" href="work.html">Work</a>
-                    </li>   
-                </ul>    
-            </nav>
-        </div>    
+      <div class="flexbox__item">
+        <img class="logo" src="img/logo-no-background.svg" alt="logo" />
+      </div>
+      <div class="flexbox__item">
+        <nav>
+          <ul role="menubar">
+            <li class="navigation__item" role="presentation">
+              <a
+                class="navigation-list__item navigation-list__item--active"
+                role="menuitem"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="navigation__item" role="presentation">
+              <a class="navigation-list__item" role="menuitem" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="navigation__item" role="presentation">
+              <a
+                class="navigation-list__item"
+                role="menuitem"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+            <li class="navigation__item" role="presentation">
+              <a class="navigation-list__item" role="menuitem" href="work.html"
+                >Work</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="grid__item main__animation">
-        <div class="profile flexbox__container--main">
-            <img class="profile__portrait" src="img/photo.JPG" alt="A picture of me">
-            <div class="profile__text">
-                <h1 id="home">
-                    Hello World!
-                </h1>
-                <h3>
-                    My name is Juan Pablo Alvarez Vega
-                </h3>
-                <h3>
-                    I am a <span>&lt;Web&gt;</span> developer from Mexico.
-                </h3>
-                <a>Check out some of my code</a>
-            </div>
+      <div class="profile flexbox__container--main">
+        <img
+          class="profile__portrait"
+          src="img/photo.JPG"
+          alt="A picture of me"
+        />
+        <div class="profile__text">
+          <h1 id="home">Hello World!</h1>
+          <h3>My name is Juan Pablo Alvarez Vega</h3>
+          <h3>I am a <span>&lt;Web&gt;</span> developer from Mexico.</h3>
+          <a>Check out some of my code</a>
         </div>
+      </div>
     </main>
     <footer class="grid__item flexbox__container--footer">
-        <p>Find me on</p>
-        <div class="flexbox__item--footer">
-            <!-- remember to add HTTPS for absolute links -->
-            <a href="https://www.linkedin.com/in/juanpabloalvarezv" target="_blank">
-                <img class="icon" src="img/linkedinIcon.svg" alt="linkedin logo">
-            </a>
-            <a href="https://github.com/juanpialvarez" target="_blank">
-                <img class="icon" src="img/gitthubIcon.svg" alt="github logo">
-            </a>
-            <a>
-                <img class="icon" src="img/twitterIcon.svg" alt="twitter logo">
-            </a>
-        </div>
+      <p>Find me on</p>
+      <div class="flexbox__item--footer">
+        <!-- remember to add HTTPS for absolute links -->
+        <a href="https://www.linkedin.com/in/juanpabloalvarezv" target="_blank">
+          <img class="icon" src="img/linkedinIcon.svg" alt="linkedin logo" />
+        </a>
+        <a href="https://github.com/juanpialvarez" target="_blank">
+          <img class="icon" src="img/gitthubIcon.svg" alt="github logo" />
+        </a>
+        <a>
+          <img class="icon" src="img/twitterIcon.svg" alt="twitter logo" />
+        </a>
+      </div>
     </footer>
     <!-- <script src="js/tota11y.min.js"></script> -->
-</body>
+  </body>
 </html>
